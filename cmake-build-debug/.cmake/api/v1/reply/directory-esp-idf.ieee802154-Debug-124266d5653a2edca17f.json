@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/ieee802154",
+		"source" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/ieee802154"
+	}
+}
