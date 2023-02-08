@@ -408,6 +408,7 @@ C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/asio/CMakeF
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/asio/CMakeFiles/install.dir
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/asio/CMakeFiles/install/local.dir
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/asio/CMakeFiles/install/strip.dir
+C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/bt/CMakeFiles/__idf_bt.dir
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/bt/CMakeFiles/edit_cache.dir
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/bt/CMakeFiles/rebuild_cache.dir
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/bt/CMakeFiles/list_install_components.dir

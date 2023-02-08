@@ -1,10 +1,9 @@
 "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Wu\Desktop\esp32_lib\zero_lib_idf -B C:\Users\Wu\Desktop\esp32_lib\zero_lib_idf\cmake-build-debug
--- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32
 -- Checking Python dependencies...
 Python requirements from C:\Users\Wu\Desktop\esp-mdf\esp-idf\requirements.txt are satisfied.
 -- Project sdkconfig file C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/sdkconfig
--- App "zero_lib_idf" version: 1
+-- App "zero_lib_idf" version: 46a8d59-dirty
 -- Adding linker script C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld

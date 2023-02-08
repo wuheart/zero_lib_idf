@@ -36,6 +36,7 @@ C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/newlib/libn
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/cxx/libcxx.a
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/app_trace/libapp_trace.a
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/asio/libasio.a
+C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/bt/libbt.a
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/cbor/libcbor.a
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/unity/libunity.a
 C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/esp-idf/cmock/libcmock.a
