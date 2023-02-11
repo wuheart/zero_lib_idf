@@ -9,6 +9,23 @@
 #ifndef _HP_WU_WIFI_
 #define _HP_WU_WIFI_
 
+#include "esp_netif.h"
+#include "esp_event.h"
+#include "esp_wifi.h"
+#include "nvs_flash.h"
+#include "esp_log.h"
+#include <unistd.h>
+#include "esp_timer.h"
+#include "esp_sntp.h"
+
+#include "lwip/err.h"
+#include "lwip/sockets.h"
+#include "lwip/sys.h"
+#include "lwip/netdb.h"
+#include "lwip/dns.h"
+
 void wu_wifi_init();
+
+bool wifi_connect_state();
 
 #endif // !

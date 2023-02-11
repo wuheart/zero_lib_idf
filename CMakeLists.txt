@@ -7,4 +7,8 @@ cmake_minimum_required(VERSION 3.5)
 set(EXTRA_COMPONENT_DIRS)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+
+set(PROJECT_VER "1.1.0")
+set(PROJECT_VER_NUMBER 2022)
+
 project(zero_lib_idf)

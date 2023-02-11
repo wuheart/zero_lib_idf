@@ -8,21 +8,8 @@
  */
 
 #include "hp_wu_wifi.h"
-#include "esp_netif.h"
-#include "esp_event.h"
-#include "esp_wifi.h"
-#include "nvs_flash.h"
-#include "esp_log.h"
-#include <unistd.h>
-#include "esp_timer.h"
-#include "esp_sntp.h"
 
-#include "lwip/err.h"
-#include "lwip/sockets.h"
-#include "lwip/sys.h"
-#include "lwip/netdb.h"
-#include "lwip/dns.h"
-
+bool wifi_is_connect = false;
 /**
  * @brief 用于初始化nvs 
  * @return {*}
@@ -148,6 +135,10 @@ void wifi_scan(){
     esp_wifi_scan_stop();
 }
 
+bool wifi_connect_state(){
+    return wifi_is_connect;
+}
+
 /**
  * @brief 事件处理
  * @param {void*} arg 表示传递的参数
@@ -159,33 +150,34 @@ void wifi_scan(){
 void event_handler(void* arg, esp_event_base_t event_base, int32_t event_id, void* event_data){
     
     if(event_base == WIFI_EVENT){
-        switch (event_id)
-        {
-        case WIFI_EVENT_STA_START:
-            /* code */
-            ESP_LOGI("WIFI", "wifi sta start");
-            wifi_scan();
-            esp_wifi_connect();
-            break;
-        case WIFI_EVENT_STA_CONNECTED:
-            ESP_LOGI("WIFI", "wifi connected");
-            sntp_stop();
-            sntp_init();
-            //tcp_client();
-            break;
-        case WIFI_EVENT_STA_DISCONNECTED:
-            ESP_LOGI("WIFI","wifi disconnected");
-            ESP_LOGI("WIFI", "wifi reconnecting...");
-            esp_wifi_connect();
-            break;
-        case WIFI_EVENT_AP_START:
-            ESP_LOGI("WIFI", "wifi ap start");
-            break;
-        case WIFI_EVENT_AP_STACONNECTED:
-            ESP_LOGI("WIFI", "wifi sta connected");
-            break;
-        default:
-            break;
+        switch (event_id) {
+            case WIFI_EVENT_STA_START:
+                /* code */
+                ESP_LOGI("WIFI", "wifi sta start");
+                //wifi_scan();
+                esp_wifi_connect();
+                break;
+            case WIFI_EVENT_STA_CONNECTED:
+                ESP_LOGI("WIFI", "wifi connected");
+                wifi_is_connect = true;
+//              sntp_stop();
+//              sntp_init();
+                //tcp_client();
+                break;
+            case WIFI_EVENT_STA_DISCONNECTED:
+                ESP_LOGI("WIFI", "wifi disconnected");
+                ESP_LOGI("WIFI", "wifi reconnecting...");
+                wifi_is_connect = false;
+                esp_wifi_connect();
+                break;
+            case WIFI_EVENT_AP_START:
+                ESP_LOGI("WIFI", "wifi ap start");
+                break;
+            case WIFI_EVENT_AP_STACONNECTED:
+                ESP_LOGI("WIFI", "wifi sta connected");
+                break;
+            default:
+                break;
         }
     }
     else if(event_base == IP_EVENT){

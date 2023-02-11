@@ -1,0 +1,9 @@
+# Name,   Type, SubType,  Offset,   Size,  Flags
+phy_init, data, phy,      0xf000,   4k,
+ota_0,    app,  ota_0,    0x10000,  1700k,
+ota_1,    app,  ota_1,    ,         1700k,
+otadata,  data, ota,      ,         8k,
+coredump, data, coredump, ,         64K,
+nvs,      data, nvs,      ,         64k,
+storage,  data, fat,      ,         4K,
+reserved, data, 0xfe,     ,         128K,

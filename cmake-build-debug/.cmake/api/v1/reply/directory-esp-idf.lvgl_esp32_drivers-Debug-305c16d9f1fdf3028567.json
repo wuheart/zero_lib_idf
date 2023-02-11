@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/lvgl_esp32_drivers",
+		"source" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl_esp32_drivers"
+	}
+}

@@ -1,0 +1,765 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "esp-idf/main/libmain.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"idf_component_register",
+			"set_property",
+			"__component_set_dependencies",
+			"__component_set_all_dependencies",
+			"add_compile_options",
+			"add_c_compile_options",
+			"include_directories",
+			"target_include_directories",
+			"__component_add_include_dirs"
+		],
+		"files" : 
+		[
+			"C:/Users/Wu/Desktop/esp-mdf/esp-idf/tools/cmake/component.cmake",
+			"main/CMakeLists.txt",
+			"C:/Users/Wu/Desktop/esp-mdf/esp-idf/tools/cmake/utilities.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 505,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 326,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 449,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 450,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 282,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 448,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 473,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 20
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address  -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fmacro-prefix-map=C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf=."
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fmacro-prefix-map=C:/Users/Wu/Desktop/esp-mdf/esp-idf=IDF"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fno-jump-tables"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-fno-tree-switch-conversion"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wno-old-style-declaration"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-D_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-DIDF_VER=\\\"v4.4.2-dirty\\\""
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-DESP_PLATFORM"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-D_POSIX_READER_WRITER_LOCKS"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LV_CONF_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LV_LVGL_H_INCLUDE_SIMPLE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/cmake-build-debug/config"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/main"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/freertos/include/esp_additions/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/freertos/port/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/freertos/include/esp_additions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_hw_support/include/soc/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_hw_support/port/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_hw_support/port/esp32/private_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/soc/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/hal/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_rom/include/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_rom/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_system/port/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_system/port/public_compat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/driver/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_pm/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/efuse/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_wifi/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_netif/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_eth/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_phy/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_phy/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_ipc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_timer/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/adc_app/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_adc_cal/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/ble_app/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/spi_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/mbedtls/esp_crt_bundle/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/common/osi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/include/esp32/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/common/api/include/api"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/common/btc/profile/esp/blufi/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/common/btc/profile/esp/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bt/host/bluedroid/api/include/api"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/json/cJSON"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/gpio_app/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/http_app/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_http_client/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/nghttp/port/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/nghttp/nghttp2/lib/includes"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp-tls"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp-tls/esp-tls-crypto"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/mqtt_app/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/ota_app/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/esp_https_ota/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/app_update/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/timer_app/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/uart_app/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/wifi_app/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp32_lib/zero_lib_idf/components/lvgl_port/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl/examples"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl/demos"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl_esp32_drivers"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/Wu/Desktop/esp-mdf/esp-idf/components/lvgl_esp32_drivers/lvgl_tft"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_ringbuf::@ad62994b1ce98b81017d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_bt::@0a9ab9982b985d43ed2a"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_esp_adc_cal::@dc736dc1d836ef36c9a5"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_json::@c78a8bdc820334f01148"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_lvgl::@fef3440dd93e3bfaa8d6"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_lvgl_esp32_drivers::@afcbea19b775505b6324"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "__idf_mqtt::@c1ab2c6a99226d1f4b56"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_ble_app::@bd04e5cbd11819583d31"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "__idf_gpio_app::@c116d5088452b9faa2b8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_adc_app::@bc7ce53ebf78b9d4a834"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_http_app::@8942b7fc1aa7a15945fc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "__idf_mqtt_app::@0b98547767a8b55bcb96"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "__idf_timer_app::@56a6eb85f47ea2282f89"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "__idf_ota_app::@6d7d7227f8b0cbf36b9d"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_uart_app::@89a7dcbcb95245b93893"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_wifi_app::@a2d3e69f91fba68e3cf2"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_lvgl_port::@3af1e63a446c44ff7349"
+		}
+	],
+	"id" : "__idf_main::@7368607ed66887415643",
+	"name" : "__idf_main",
+	"nameOnDisk" : "libmain.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/main",
+		"source" : "main"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main/zero_lib_idf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
